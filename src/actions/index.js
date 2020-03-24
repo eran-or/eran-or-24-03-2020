@@ -1,0 +1,2 @@
+export { setLocationName, fetchLocationDetails, fetchWeatherForecast, fetchCurrentWeather, fetchLocations } from '../modules/weather/weatherActions'
+export { updateFavorites } from '../modules/favorites/favoritesActions'
