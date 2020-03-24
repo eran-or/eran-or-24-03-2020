@@ -26,8 +26,8 @@ export const fetchWeatherForecast = locationKey => {
 } 
 
 export const fetchLocations = value => {
+    console.log("dev")
     const url = `//dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apiKey}&q=${value}`
-    // const url = 'demoData.json'
     return apiCall('FETCH_LOCATION_DETAILS', url)
 }
 
