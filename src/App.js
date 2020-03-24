@@ -7,7 +7,7 @@ import Home from './modules/home/Home'
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="/eran-or-24-03-2020">
       <Header />
       <Switch>
         <Route exact path="/favorites">
